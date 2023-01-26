@@ -2,16 +2,19 @@
   "name": "vuepress-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "docs/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "start": "npm run docs:dev",
+    "nodemon": "nodemon -x \"npm run start\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "vuepress": "^1.8.2"
   }
 }

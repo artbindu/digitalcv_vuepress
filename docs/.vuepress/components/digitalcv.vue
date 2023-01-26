@@ -1,8 +1,8 @@
 <template>
     <div class="digitalcv">
-      <h1>{{ number }}</h1>
+      <!-- <h1>{{ number }}</h1>
       <button @click="increment">Increment</button>
-      <button @click="decrement">Decrement</button>
+      <button @click="decrement">Decrement</button> -->
     </div>
   </template>
   
@@ -14,16 +14,16 @@
       };
     },
     methods: {
-      increment() {
-        if (this.number >= 0) {
-          this.number++;
-        }
-      },
-      decrement() {
-        if (this.number > 0) {
-          this.number--;
-        }
-      }
+      // increment() {
+      //   if (this.number >= 0) {
+      //     this.number++;
+      //   }
+      // },
+      // decrement() {
+      //   if (this.number > 0) {
+      //     this.number--;
+      //   }
+      // }
     }
   };
   </script>

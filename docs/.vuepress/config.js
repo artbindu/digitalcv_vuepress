@@ -1,20 +1,11 @@
 module.exports = {
-    title: 'VuePress',
-    description: 'A demo documentation using VuePress',
+    title: 'Biswasindhu Mandal',
+    description: 'A passionate Full Stack developer from India',
     themeConfig: {
       nav: [
-        { text: 'Counter', link: '/counter/' },
         { text: 'DigitalCV', link: '/digitalcv/' }
       ],
       sidebar: [
-        {
-          title: 'Counter',
-          collapsable: false,
-          children: [
-            ['/counter/usage', 'Usage'],
-            ['/counter/see-also', 'See Also']
-          ]
-        },
         {
           title: 'DigitalCV',
           collapsable: false,
@@ -23,7 +14,9 @@ module.exports = {
             ['/digitalcv/experience', 'Experience'],
             ['/digitalcv/education', 'Education'],
             ['/digitalcv/skills', 'Skills'],
-            ['/digitalcv/Project', 'Project']
+            ['/digitalcv/Project', 'Project'],
+            ['/digitalcv/activities', 'Activities'],
+            ['/digitalcv/blogs', 'Blog & Article']
           ]
         }
       ]
