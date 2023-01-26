@@ -1,3 +1,6 @@
+# ignore directory
+
 node_modules
 package-lock.json
 docs\vuepress\dist
+.vscode
