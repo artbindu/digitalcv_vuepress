@@ -52,7 +52,7 @@ title: DigitalCV - Skills
 </table
 
 
-## Frontend Development:
+## Frontend Development
 <div>
       <a href="https://babeljs.io/docs/en/learn/">
           <img align="left" alt="Babel" width="35px" style="padding:5px;"
@@ -86,7 +86,7 @@ title: DigitalCV - Skills
 <br />
 
 
-## Backend Development:
+## Backend Development
 <div style="display: block;padding:10px;margin-bottom:30px;text-align:justify;">
     <a href="https://nodejs.org/en/docs/">
         <img align="left" alt="NodeJs" width="35px" style="padding:5px;"
@@ -107,16 +107,16 @@ title: DigitalCV - Skills
 </div>
 <br />
 
-## Frontend Streaming Media Player Library:
+## OTT Media Player Library (FE):
 <div>
       <a href="http://cdn.dashjs.org/latest/jsdoc/index.html">
           <img align="left" alt="Dash.js" height="35px" style="background-color:#EAECEC; padding:2px;"
               src="https://dashif.org/img/dashif-logo-283x100_new.jpg"/>
-      </a>&nbsp;
+      </a>&nbsp;&nbsp;
       <a href="https://developer.apple.com/documentation/http_live_streaming">
           <img align="left" alt="HTTP Live Streaming" height="35px" style="padding:2px;"
               src="https://bitmovin.com/wp-content/uploads/2016/04/apple_hls_6401.jpg"/>
-      </a>&nbsp;
+      </a>
       <a href="https://bitmovin.com/docs/player/tutorials">
          <img alt="File:Bitmovin logo 2016.svg" style="background-color:#EAECEC; padding:2px;"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Bitmovin_logo_2016.svg/207px-Bitmovin_logo_2016.svg.png?20180705131518" decoding="async" width="145" height="35" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Bitmovin_logo_2016.svg/311px-Bitmovin_logo_2016.svg.png?20180705131518 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Bitmovin_logo_2016.svg/414px-Bitmovin_logo_2016.svg.png?20180705131518 2x" data-file-width="145" data-file-height="35">
@@ -230,7 +230,7 @@ title: DigitalCV - Skills
 </div>
 <br />
 
-## Operating System:
+## Operating System
 <div>
       <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd">
           <img align="left" alt="Windows" width="40px" style="padding:5px;"

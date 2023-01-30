@@ -2,7 +2,8 @@
 title: DigitalCV - About
 ---
 # Experience
-<hr>
+
+---
 
 ## CATalyst. 
 This empowers both parties to manage the workflow from a single application. 
@@ -23,7 +24,8 @@ Mac/Windows & Linux
   - Maintains daily workflow for stability and goal-oriented working. 
 - Skills Developed – Understanding the project heuristics and principles, technical 
 writing, business logic and user workflow, Angular, Regular Expression, Typescript. 
-<hr>
+
+---
 
 ## MediaKind – OTT SDK Development: 
 OTT Media Player Development which communicates the web video application with 
@@ -50,7 +52,8 @@ player.
   - Maintains daily workflow for stability and goal-oriented working. 
 - Skills Developed – OTT Domain Knowledge, mpd & m3u8 player knowledge, IHD, 
 DAI, DRM, key rotation, Unit Test using Mocha-Chai, Rest API. 
-<hr>
+
+---
 
 ## MediaKind - Chromecast Receiver Development using V3 protocol: 
 Cast MK player, WMC SDK player, Mobile Devices player through Google Chromecast 
@@ -67,7 +70,8 @@ IOS devices.
   - Synchronized CC sender & receiver libraries to play media smoothly 
 - Skills Developed – Chromecast Knowledge, CC Sender & Receiver 
 synchronization, CC event handling. 
-<hr>
+
+---
 
 ## MediaKind – WMC SDK Player Integration: 
 WMC SDK is a library that provided the interface to play HTM5 video to a client. - -

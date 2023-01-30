@@ -2,7 +2,8 @@
 title: DigitalCV - Activities
 ---
 # Activities
-<hr>
+
+---
 
 
 ## Languages 
@@ -11,6 +12,8 @@ title: DigitalCV - Activities
 - Hindi (Limited Working) 
 - Bengali (Full Professional)
 - Oriya (Elementary) 
+
+---
 
 ## Hobbies 
 - Reading Detective Books

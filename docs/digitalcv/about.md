@@ -2,7 +2,8 @@
 title: DigitalCV - About
 ---
 # About
-<hr>
+
+---
 
 ## Professional Summary
 

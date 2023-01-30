@@ -2,7 +2,8 @@
 title: DigitalCV - Project
 ---
 # Internship & Project 
-<hr>
+
+---
 
 
 ## Internship
@@ -14,7 +15,8 @@ title: DigitalCV - Project
 * Development BE application to migrate data from employee data server in MS-SQL to a different server in MongoDB using Vanilla JavaScript, Node JS, Express and Mongo. 
 
 * Development FE application to show employee information in Web Browser in different aspect using Angular 8 framework with REST API.
-<hr>
+
+---
 
 ## Project
 

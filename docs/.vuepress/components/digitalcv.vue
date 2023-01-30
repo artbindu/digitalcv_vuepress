@@ -8,6 +8,7 @@
   
   <script>
   export default {
+    el: '#digitalcv',
     data() {
       return {
         number: 0

@@ -43,6 +43,12 @@ I am Full Stack Developer working with Javascript, Mongodb. I know OTT Front End
                       src="https://cdn.simpleicons.org/hackerearth/lblue"/>
             </a>
         </td>
+        <td align="center" style="padding:0;margin:0;">
+	        <a href="https://medium.com/@artbindu">
+                  <img align="center" width="50px" style="padding:5px;"
+                      src="https://cdn.simpleicons.org/medium"/>
+            </a>
+        </td>
         <!-- <td align="center" style="padding:0;margin:0;">
 	        <a href="https://bitbucket.org/artbindu/">
                 <img align="center" width="35px" style="padding:5px;"
