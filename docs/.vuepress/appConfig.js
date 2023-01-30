@@ -4,7 +4,7 @@ const apis = {
             url: 'https://medium-story.vercel.app/api',
             credentials: {
                 username: '@artbindu',
-                index: -1
+                index: 0
             }
         }
     }
