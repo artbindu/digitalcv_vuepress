@@ -2,5 +2,7 @@
 
 node_modules
 package-lock.json
-docs\vuepress\dist
 .vscode
+
+# Build File
+docs/.vuepress/dist

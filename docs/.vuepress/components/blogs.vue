@@ -7,6 +7,7 @@
   
 <script>
 // import apis from '@/apiList';
+// import axios from "axios";
   export default {
     el: '#blogs',
     data() {
@@ -17,15 +18,20 @@
             index: -1
         },
         apiCallInterval: null,
-        intervalTime: 1000
+        intervalTime: 1000,
+        maxApiCall: 5
       };
     },
     created: function() {
         // auto call function
         this.apiCallInterval = setInterval(() => {
             this.credentials.index += 1;
+            if (this.credentials.index >= this.maxApiCall) {
+                this.clearFunctionCall();
+            }
             this.intervalTime = this.credentials.index >= 0 ? 100 : 1000;
-            this.getRequestCall(this.url, this.credentials);
+            this.getXMLHttpRequestCall(this.url, this.credentials);
+            // this.getAxiosCall(this.url, this.credentials);
         }, this.intervalTime);
     },
     methods: {
@@ -39,38 +45,53 @@
             this.credentials.index = -1;
             clearInterval(this.apiCallInterval);
         },
-        generateUrl(_url, _params) {
+        getUrl(_url, _params) {
             return `${_url}?username=${_params.username}&index=${_params.index}`;
-        }, 
-        getRequestCall(_url, _data) {
-            _url = this.generateUrl(_url, _data)
-            console.log('url: ', _url);
+        },
+        getXMLHttpRequestCall(_url, _data) {
             // create an XMLHTTPRequest object
             let req = new XMLHttpRequest();
             // pass the method 'GET', url
-            req.open("GET", _url);
+            req.open("GET", this.getUrl(_url, _data));
             req.onload = (() => {
                 // Request finished. Do processing here.
                 if (req.readyState === XMLHttpRequest.DONE) {
                     if (req.status === 200) {
                         if(req.responseXML) {
-                            this.$refs.medium_data.append(this.uiFormat(_data.index, req.response))
+                            this.$refs.medium_data.append(this.uiFormat(_data.index, req.response));
                         } else {
-                            this.clearFunctionCall()
+                            this.clearFunctionCall();
                         }
-                        // console.log(JSON.parse(req.response));
                     } else {
-                        this.clearFunctionCall()
+                        this.clearFunctionCall();
                         console.log(`Request failed with status code ${req.status} from url ${req.responseURL}`);
                     }
                 }
             });
             req.onerror = (error =>{
-                this.clearFunctionCall()
+                this.clearFunctionCall();
                 console.log(`Request failed with error ${error.type}`);
             });
             // send request
             req.send();
+        },
+        getAxiosCall(_url, _data) {
+            _url = this.getUrl(_url, _data);
+            debugger;
+            axios.get(_url)
+                .then((res) => {
+                    if (res && res.status === 200 && res.request && res.request.responseXML) {
+                        // console.log(`BM: res= `, res.data);
+                        this.$refs.medium_data.append(this.uiFormat(_data.index, res.data))
+                    } else {
+                        clearFunctionCall();
+                        // console.log(`BM: Invalid Response with status code: ${res.status}`);
+                    }
+                })
+                .catch((error) => {
+                    this.clearFunctionCall();
+                    // console.log(`BM: ${error.message} from url ${error.request?.responseURL}`);
+                });
         }
     }
   };
