@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-example",
+  "name": "my-digital-cv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a Digital CV using vuepress",
   "main": "docs/index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -11,7 +11,7 @@
     "nodemon": "nodemon -x \"npm run start\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Biswasindhu Mandal",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.20",

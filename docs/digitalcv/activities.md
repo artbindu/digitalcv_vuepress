@@ -8,7 +8,7 @@ title: DigitalCV - Activities
 
 ## Languages 
 
-- English (Professional Working),
+- English (Professional Working)
 - Hindi (Limited Working) 
 - Bengali (Full Professional)
 - Oriya (Elementary) 

@@ -58,7 +58,7 @@ title: DigitalCV - Skills
           <img align="left" alt="Babel" width="35px" style="padding:5px;"
               src="https://cdn.simpleicons.org/babel"/>
       </a>&nbsp;
-      <a href="https://webpack.js.org/concepts/">
+      <a href="https://medium.com/@artbindu/javascript-module-bundler-webpack-essential-to-learn-2e2a661e27c">
           <img align="left" alt="Webpack" width="35px" style="padding:5px;"
               src="https://cdn.simpleicons.org/webpack"/>
       </a>&nbsp;

@@ -5,10 +5,10 @@ title: DigitalCV - About
 
 ---
 
-## CATalyst. 
+## [Stenograph](https://www.linkedin.com/company/stenograph/) - CATalyst.
 This empowers both parties to manage the workflow from a single application. 
 Handling all aspects of a job, from scheduling to billing and everything in between.
-- Technology – Angular (latest), Node JS, Rest API using Express. 
+- Technology – Angular (v10-v11), Node JS, Rest API using Express. 
 - Database – Dot-Net (.NET) Framework, Ms-SQL 
 - Development Platform – Windows 
 - Target Browser – All client-side browsers (Chrome/Edge/Firefox). on 
@@ -27,7 +27,7 @@ writing, business logic and user workflow, Angular, Regular Expression, Typescri
 
 ---
 
-## MediaKind – OTT SDK Development: 
+## [MediaKind](https://www.linkedin.com/company/mediakind/) – OTT SDK Development: 
 OTT Media Player Development which communicates the web video application with 
 backend media/license server through media player library. Analysis and implementation of 
 new features in OTT application. 
@@ -55,7 +55,7 @@ DAI, DRM, key rotation, Unit Test using Mocha-Chai, Rest API.
 
 ---
 
-## MediaKind - Chromecast Receiver Development using V3 protocol: 
+## [MediaKind](https://www.linkedin.com/company/mediakind/) - Chromecast Receiver Development: 
 Cast MK player, WMC SDK player, Mobile Devices player through Google Chromecast 
 STB. Integrate Chromecast receiver UI.
 - Technology – Vanilla JavaScript with Node JS. 
@@ -73,7 +73,7 @@ synchronization, CC event handling.
 
 ---
 
-## MediaKind – WMC SDK Player Integration: 
+## [MediaKind](https://www.linkedin.com/company/mediakind/) – WMC SDK Player Integration: 
 WMC SDK is a library that provided the interface to play HTM5 video to a client. - -
  Technology – Vanilla JavaScript with Node JS. 
 - Used Library – MK OTT Application 
