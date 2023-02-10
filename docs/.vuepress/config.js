@@ -13,8 +13,9 @@ module.exports = {
             ['/digitalcv/about', 'About'],
             ['/digitalcv/experience', 'Experience'],
             ['/digitalcv/education', 'Education'],
-            ['/digitalcv/skills', 'Skills'],
-            ['/digitalcv/Project', 'Project'],
+            ['/digitalcv/skills', 'Technical Skills'],
+            ['/digitalcv/project', 'Project'],
+            ['/digitalcv/certificate', 'Certifications'],
             ['/digitalcv/activities', 'Activities'],
             ['/digitalcv/blogs', 'Blog & Article']
           ]

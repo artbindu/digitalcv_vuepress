@@ -1,5 +1,5 @@
 ---
-title: DigitalCV - Skills
+title: DigitalCV - Technical Skills
 ---
 
 # Relevant Skills Summary
