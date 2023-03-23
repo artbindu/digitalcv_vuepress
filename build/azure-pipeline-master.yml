@@ -5,10 +5,10 @@ trigger:
 
 variables:
   cv_pool_centos8: 'DIGITAL CV Build'
-  isValid: $[eq(variables['Build.SourceBranch'], 'refs/heads/cv')]
+  isValid: $[eq(variables['Build.SourceBranch'], 'refs/heads/main')]
 
 jobs:
-- job: DIGITAL_CV_Build
+- job: DIGITAL_CV_Master_Build
   pool:
     name: $(cv_pool_centos8)
   workspace:
