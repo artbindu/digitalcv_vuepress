@@ -5,6 +5,7 @@ trigger:
 
 variables:
   cv_pool_centos8: 'DIGITAL CV Build'
+  echo "artbindu build script"
   isValid: $[eq(variables['Build.SourceBranch'], 'refs/heads/main')]
 
 jobs:
