@@ -15,6 +15,7 @@ jobs:
     clean: all
   steps:
     - script: |
+      echo "Start git-pipeline-master"
       bn=`basename $(Agent.BuildDirectory)`
       for i in {1...1000}; do if [[ "$bn" != "$i" ]]; then sudo rm -rf $(Agent.WorkFolder)/$i; fi; done;
     displayName: 'Clean out all Agent Work Folders expect active'
