@@ -1,0 +1,36 @@
+trigger:
+  branches:
+    include:
+      -main
+
+variables:
+  cv_pool_centos8: 'DIGITAL CV Build'
+  isValid: $[eq(variables['Build.SourceBranch'], 'refs/heads/cv')]
+
+jobs:
+- job: DIGITAL_CV_Build
+  pool:
+    name: $(cv_pool_centos8)
+  workspace:
+    clean: all
+  steps:
+    - script: |
+      bn=`basename $(Agent.BuildDirectory)`
+      for i in {1...1000}; do if [[ "$bn" != "$i" ]]; then sudo rm -rf $(Agent.WorkFolder)/$i; fi; done;
+    displayName: 'Clean out all Agent Work Folders expect active'
+
+    - script: |
+      echo "##vso[task.setvariable variable=gitversion]`git log --pretty=format:'%h' -h 1`"
+    displayName: 'Propagate common environment variables'
+
+    - script: |
+      set -e
+      sed -ie "s/_BUILD_ID_/$(gitrevision).$(Build.BuildNumber)/g" digitalcv/index.html
+      export NVM_DIR="/usr/local/nvm"
+      [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+      echo 'nvm version : ' $(nvm --version)
+      nvm use 16.15.1
+      npm install
+      npm run docs:dev
+    displayName: 'Build DIGITAL CV Library'
+

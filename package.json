@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Create a Digital CV using vuepress",
   "main": "docs/index.js",
+  "engines": {
+    "node": ">= 16.15.1 <= 18.15.0"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -14,10 +17,10 @@
   "author": "Biswasindhu Mandal",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.20",
-    "vuepress": "^1.8.2"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "vuepress": "^1.8.2",
     "axios": "^1.2.6"
   }
 }
