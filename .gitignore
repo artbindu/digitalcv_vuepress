@@ -5,4 +5,4 @@ package-lock.json
 .vscode
 
 # Build File
-docs/.vuepress/dist
+# docs/.vuepress/dist
